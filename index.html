@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Title</title>
+    <title>Bài tập JS cơ bản</title>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta
@@ -16,22 +16,37 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <style>
+      button {
+        margin-bottom: 0.7rem;
+        margin-right: 1rem;
+      }
+      
+    </style>
   </head>
   <body>
     <div class="container">
       <h1>Bài tập 1: Tính tiền lương nhân viên</h1>
+      <h3 style="color: darkorange">
+        Lương 1 ngày làm việc là 100000 VND <br />
+        Vui lòng nhập số ngày làm việc bên dưới để tính lương
+      </h3>
       <div class="form-group">
         <label for=""></label>
         <input
-          type="text"
+          type="number"
           class="form-control"
           name=""
-          id=""
+          id="songaylamviec"
           aria-describedby="helpId"
-          placeholder=""
+          placeholder="Số ngày làm việc"
         />
       </div>
-      <button class="btn btn-success">Tính lương</button>
+      <button id="bai1tinhluong" class="btn btn-success">Tính lương</button>
+      <h3
+        id="ketquatinhluong"
+        style="color: darkred; display: inline-block"
+      ></h3>
     </div>
 
     <div class="container">
@@ -42,28 +57,71 @@
           type="text"
           class="form-control"
           name=""
-          id=""
+          id="so1"
           aria-describedby="helpId"
-          placeholder=""
+          placeholder="Số thực thứ nhất"
+        />
+        <input
+          type="text"
+          class="form-control"
+          name=""
+          id="so2"
+          aria-describedby="helpId"
+          placeholder="Số thực thứ hai"
+        />
+        <input
+          type="text"
+          class="form-control"
+          name=""
+          id="so3"
+          aria-describedby="helpId"
+          placeholder="Số thực thứ ba"
+        />
+        <input
+          type="text"
+          class="form-control"
+          name=""
+          id="so4"
+          aria-describedby="helpId"
+          placeholder="Số thực thứ tư"
+        />
+        <input
+          type="text"
+          class="form-control"
+          name=""
+          id="so5"
+          aria-describedby="helpId"
+          placeholder="Số thực thứ năm"
         />
       </div>
-      <button class="btn btn-success">Giá trị trung bình</button>
+      <button id="tinhtrungbinh" class="btn btn-success">
+        Giá trị trung bình
+      </button>
+      <h3
+        id="ketquatrungbinh"
+        style="color: darkred; display: inline-block"
+      ></h3>
     </div>
 
     <div class="container">
       <h1>Bài tập 3: Quy đổi tiền</h1>
+      <h3 style="color: darkorange">
+        Giá USD hiện tại là 23.500 VND <br />
+        nhập vào số USD bên dưới để quy đổi ra VND
+      </h3>
       <div class="form-group">
         <label for=""></label>
         <input
           type="text"
           class="form-control"
           name=""
-          id=""
+          id="sousd"
           aria-describedby="helpId"
-          placeholder=""
+          placeholder="Số USD"
         />
       </div>
-      <button class="btn btn-success">Quy đổi</button>
+      <button id="tinhquydoi" class="btn btn-success">Quy đổi</button>
+      <h3 id="ketquaquydoi" style="color: darkred; display: inline-block"></h3>
     </div>
 
     <div class="container">
@@ -74,12 +132,28 @@
           type="text"
           class="form-control"
           name=""
-          id=""
+          id="chieudai"
           aria-describedby="helpId"
-          placeholder=""
+          placeholder="Nhập chiều dài"
+        />
+        <input
+          type="text"
+          class="form-control"
+          name=""
+          id="chieurong"
+          aria-describedby="helpId"
+          placeholder="Nhập chiều rộng"
         />
       </div>
-      <button class="btn btn-success">Tính diện tích</button>
+      <button id="tinhdientich" class="btn btn-success">Tính diện tích</button>
+      <h3
+        id="ketquatinhdientich"
+        style="color: darkred; display: inline-block"
+      ></h3>
+      <button id="tinhchuvi" class="btn btn-success" style="display: block">
+        Tính chu vi
+      </button>
+      <h3 id="ketquatinhchuvi" style="color: darkred; display: inline"></h3>
     </div>
 
     <div class="container">
@@ -90,13 +164,32 @@
           type="text"
           class="form-control"
           name=""
-          id=""
+          id="so2chuso"
           aria-describedby="helpId"
           placeholder=""
         />
       </div>
-      <button class="btn btn-success">Tổng 2 ký số</button>
+      <button id="tinhtongkyso" class="btn btn-success">Tổng 2 ký số</button>
+      <h3
+        id="ketquatongkyso"
+        style="color: darkred; display: inline-block"
+      ></h3>
     </div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
@@ -114,5 +207,6 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+    <script src="./index.js"></script>
   </body>
 </html>
