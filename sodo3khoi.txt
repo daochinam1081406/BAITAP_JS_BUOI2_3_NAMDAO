@@ -1,0 +1,142 @@
+sơ đồ 3 khối 
+
+bài tập 1 tính lương:
+              +--------------+
+              | Người dùng   |
+              +------+-------+
+                     |
+                     v
+              +--------------+
+              | Nhập số ngày |
+              | làm việc     |
+              +------+-------+
+                     |
+                     v
+              +--------------+
+              | Tính lương:  |
+              | Lương =      |
+              | Lương 1 ngày |
+              |    x         | 
+              | Số ngày làm  |
+              +------+-------+
+                     |
+                     v
+              +--------------+
+              | Hiển thị kết |
+              | quả lương    |
+              +--------------+
+Bài tập 2 tính giá trị trung bình:
+              +----------------------+
+              | Người dùng nhập      | 
+              | 5 số vào các ô input |
+              +----------+-----------+
+                         |
+                         v
++------------------------------------------------------+
+| Nếu số1 không rỗng, gán giá trị của số1 vào biến so1 |
+| Nếu số2 không rỗng, gán giá trị của số2 vào biến so2 |
+| Nếu số3 không rỗng, gán giá trị của số3 vào biến so3 |
+| Nếu số4 không rỗng, gán giá trị của số4 vào biến so4 |
+| Nếu số5 không rỗng, gán giá trị của số5 vào biến so5 |
++------------------------------------------------------+
+                         |
+                         v
++---------------------------------------------------+
+| Tính giá trị trung bình:                          |
+| kqtrungbinh = (so1 + so2 + so3 + so4 + so5) / 5.0 |
++---------------------------------------------------+
+                         |
+                         v
++----------------------------------------------------------+
+| Hiển thị kết quả giá trị trung bình lên phần tử <p> có id|
+| "ketquatrungbinh" trong HTML                             |
++----------------------------------------------------------+
+ Bài tập 3 quy đổi:
+ 
+              +-------------------------+
+              | Người dùng nhập        |
+              | số tiền USD cần quy đổi |
+              +----------+--------------+
+                         |
+                         v
++---------------------------------------------+
+| Lấy giá trị số tiền USD từ phần tử input   |
+| Nếu giá trị không rỗng, gán cho biến sousd |
+| Tính số tiền quy đổi VND = sousd * 23500   |
+| Kết quả: số tiền quy đổi VND                |
++---------------------------------------------+
+                         |
+                         v
++-------------------------------------------------------+
+| Hiển thị kết quả số tiền quy đổi VND lên phần tử <p> |
+| có id "ketquaquydoi" trong HTML                      |
++-------------------------------------------------------+
+Bài tâp 4 tính diện tích và chu vi hình chữ nhật
+
++------------------------+
+| Người dùng nhập         |
+| chiều dài và chiều rộng |
++----------+-------------+
+           |
+           v
++---------------------+
+| Lấy giá trị chiều dài |
+| Nếu không rỗng, gán  |
+| cho biến chieudai    |
++---------------------+
+           |
+           v
++---------------------+
+| Lấy giá trị chiều rộng|
+| Nếu không rỗng, gán  |
+| cho biến chieurong   |
++---------------------+
+           |
+           v
++------------------------------------+
+| Lấy tham chiếu đến các phần tử    |
+| trong giao diện cho các button và |
+| phần hiển thị kết quả             |
++------------------------------------+
+           |
+           v
++-----------------------------------------+
+| Khi người dùng nhấn nút "Tính diện tích" |
+| Lấy lại giá trị chiều dài và chiều rộng |
+| Nếu chiều dài hoặc chiều rộng <= 0       |
+| Hiển thị thông báo cảnh báo             |
+| Tính diện tích và hiển thị kết quả      |
++-----------------------------------------+
+           |
+           v
++------------------------------------+
+| Khi người dùng nhấn nút "Tính chu vi" |
+| Lấy lại giá trị chiều dài và chiều rộng|
+| Nếu chiều dài hoặc chiều rộng <= 0      |
+| Hiển thị thông báo cảnh báo            |
+| Tính chu vi và hiển thị kết quả       |
++------------------------------------+
+bài tập 5 tính tổng 2 ký số
++-------------------------+
+| Người dùng nhập           |
+| chuỗi có 2 ký tự số      |
+| từ 10 đến 99             |
++------------+------------+
+             |
+             v
++---------------------------------+
+| Lấy tham chiếu đến các phần tử |
+| trong giao diện cho button và   |
+| phần hiển thị kết quả           |
++---------------------------------+
+             |
+             v
++----------------------------------------+
+| Khi người dùng nhấn nút "Tính tổng 2 ký số" |
+| Lấy giá trị chuỗi nhập vào                   |
+| Nếu độ dài chuỗi khác 2 hoặc không phải số   |
+| Hiển thị thông báo cảnh báo                 |
+| Lấy ký tự thứ nhất và ký tự thứ hai           |
+| Kiểm tra điều kiện ký tự thứ nhất và thứ hai |
+| Tính tổng và hiển thị kết quả                |
++----------------------------------------+
